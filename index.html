@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Solar system</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<link href="images/title.png" rel="icon" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body id="wrapper">
+	<div class="header">
+		<h2 class="logo">The Solar System</h2>
+		<input type="checkbox" id="chk">
+		<label for="chk" class="show-menu-btn">
+		<i class="fas fa-ellipsis-h"></i>
+		</label>
+
+		<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="planet.html">Planet</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="reference.html">Reference</a></li>
+				<li><a href="support.html">Guide</a>
+				<li><label for="chk" class="hide-menu-btn">
+				<i class="fas fa-times"></i>
+			</label></li>
+		</ul>
+	</div>
+
+	<div id="blank">
+	</div>
+	<div>
+	<br>
+	<br>
+	<br>
+		<!-- 1. Link to jQuery (1.8 or later), -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+		<!-- fotorama.css & fotorama.js. -->
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+		<!-- 2. Add images to <div class="fotorama"></div>. -->
+		<div class="fotorama" data-autoplay="true" data-height="680" data-width="100%">
+			<img src="images/EARTH.png" alt="pic1">
+			<img src="images/MARS.png" alt="pic2">
+			<img src="imageas/JUPITER.png" alt="pic3">
+			<img src="images/MERCURY.png" alt="pic4">
+			<img src="images/SATURN.png" alt="pic5">
+			<img src="images/VENUS.png" alt="pic6">
+
+		</div>
+
+	<div id="about">
+			<h1>ABOUT UNIVERSE</h1>
+				<p>The Universe is everything we can touch, feel, sense, measure or detect. It includes living things, planets, stars, galaxies, dust clouds, light, and even time. Before the birth of the Universe, time, space and matter did not exist.
+				The Universe contains billions of galaxies, each containing millions or billions of stars. The space between the stars and galaxies is largely empty. However, even places far from stars and planets contain scattered particles of dust or a few hydrogen atoms per cubic centimeter. Space is also filled with radiation (e.g. light and heat), magnetic fields and high energy particles (e.g. cosmic rays).
+				The Universe is incredibly huge. It would take a modern jet fighter more than a million years to reach the nearest star to the Sun. Travelling at the speed of light (300,000 km per second), it would take 100,000 years to cross our Milky Way galaxy alone.
+				No one knows the exact size of the Universe, because we cannot see the edge – if there is one. All we do know is that the visible Universe is at least 93 billion light years across. (A light year is the distance light travels in one year – about 9 trillion km.)
+				The Universe has not always been the same size. Scientists believe it began in a Big Bang, which took place nearly 14 billion years ago. Since then, the Universe has been expanding outward at very high speed. So the area of space we now see is billions of times bigger than it was when the Universe was very young. The galaxies are also moving further apart as the space between them expands.</p>
+	</div>
+	<div id="signin">
+			<h1>Join Us Now</h1><br>
+			<div id="form">
+				<form method="post" id="form1">
+					User Name:<br><input type="text" name="name" id="name" maxlength="10" size="50" required><br><br>
+					Password:<br><input type="password" name="password" size="50" required><br>
+					<input type="checkbox" name="log in" value="log in">keep me logged in<br><br>
+					<input type="submit" value="Sign In"> <input type="reset">
+				</form>
+				<form method="post" action="http://webdevbasics.net/scripts/demo.php " id="form2">
+					<label>Name:</label><br><input type="text" name="First Name" placeholder="First Name" required>&nbsp; &nbsp;
+					<input type="text" name="Last Name" placeholder="Last Name" required><br><br>
+					<label>Email:</label><br><input type="email" name="Email" id="email" size="50" placeholder="example@hotmail.com" required><br><br>
+					<label>Gender:</label> &nbsp;
+					<input type="radio" name="sex" value="male"  required>Male
+					<input type="radio" name="sex" value="female" required>Female<br><br>
+					<label>Password:</label><br><input type="password" name="Password" size="50" required><br><br>
+					<label>Birthday:</label><br><input type="number" name="date" id="date"   min="1" max="31" required>
+										<input type="number" name="month" id="month" min="1" max="12" required>
+										<input type="number" name="year" id="year" min="1916" max="2016" required>					<br><br>
+					<input type="submit" value="Sign Up" > <input type="reset"><br><br>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<nav>
+			<a href="index.html">Home</a>&nbsp; &#9474; &nbsp;
+			<a href="planet.html">Planet</a>&nbsp;  &#9474; &nbsp;
+			<a href="video.html">Video</a>&nbsp; &#9474; &nbsp;
+			<a href="reference.html">Reference</a>&nbsp; &#9474; &nbsp;
+			<a href="support.html">Support</a>
+		</nav>
+		copyright &copy; 2019 THESOLARSYSTEM<br>
+		<a href="mailto:TheUniverse00@outlook.com">TheUniverse00@Gmail.com</a><br>
+		<a href="tel:011-6067-8305">011-6067-8305</a>
+		<h5>Page last modified on</h5>
+		<script>document.write(document.lastModified);</script>
+	</footer>
+
+</body>
+</html>

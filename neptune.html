@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>NEPTUNE</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="planet.css">
+	<link href="images/title.png" rel="icon" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+
+		    $(".slidingDiv").hide("slow");
+		    $(".show_hide").show("slow");
+
+		    $('.show_hide').click(function() {
+		        $(this).parent().find(".slidingDiv").slideToggle();
+		    });
+
+		});
+	</script>
+</head>
+<body id="wrapper">
+	<div class="header">
+		<h2 class="logo">The Solar System</h2>
+		<input type="checkbox" id="chk">
+		<label for="chk" class="show-menu-btn">
+		<i class="fas fa-ellipsis-h"></i>
+		</label>
+
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="planet.html">Planet</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="reference.html">Reference</a></li>
+			<li><a href="support.html">Guide</a>
+			<li><label for="chk" class="hide-menu-btn">
+			<i class="fas fa-times"></i>
+		</label></li>
+		</ul>
+	</div>
+	<br><br><br><br>
+
+
+	<div class="box1">
+		<p>Neptune is the eighth planet from the Sun making it the most distant in the solar system. This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position.</p><br>
+		<p> In 1989, the Voyager 2 spacecraft swept past the planet. It returned the first close-up images of the Neptune system. The NASA/ESA Hubble Space Telescope has also studied this planet, as have a number of ground-based telescopes.</p>
+	</div>
+
+	<div class="align">
+	<img src="images/nep.gif" alt="merGif" width="500" height="500">
+	</div>
+
+	<div class="fleft"> <!-- This is the parent div -->
+		<a href="#" class="show_hide"><img src="images/didYouKnow.png" alt="quest" height="75" width="75" ></a>
+		<div class="slidingDiv">
+			<h2>DID YOU KNOW?</h2>
+			<p>The climate on Neptune is extremely active</p>
+		</div>
+	</div>
+	<br><br>
+
+
+	<div class="table">
+		<h2> NEPTUNE PLANET PROFILE </h2>
+		<table>
+	<tr>
+		<th>Diameter: </th>
+		<td>49,528 km</td>
+	</tr>
+	<tr>
+		<th>Mass: </th>
+		<td>1.02 x 10^26 kg (17 Earths)</td>
+	</tr>
+	<tr>
+		<th>Moons: </th>
+		<td>14 (Triton)</td>
+	</tr>
+	<tr>
+		<th>Orbits Distance: </th>
+		<td>4,498,396,441 km (30.10 AU)</td>
+	</tr>
+	<tr>
+		<th>Orbit Period:</th>
+		<td>60,190 days (164.8 years)</td>
+	</tr>
+	<tr>
+		<th>Surface Temperature: </th>
+		<td>	-214 C</td>
+	</tr>
+	<tr>
+		<th>First Record:</th>
+		<td>September 23rd 1846</td>
+	</tr>
+	<tr>
+		<th>Recorded By: </th>
+		<td>Urbain Le Verrier & Johann Galle</td>
+	</tr>
+	</table>
+	</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+	<footer>
+		<nav>
+			<a href="index.html">Home</a>&nbsp; &#9474; &nbsp;
+			<a href="planet.html">Planet</a>&nbsp;  &#9474; &nbsp;
+			<a href="video.html">Video</a>&nbsp; &#9474; &nbsp;
+			<a href="reference.html">Reference</a>&nbsp; &#9474; &nbsp;
+			<a href="support.html">Support</a>
+		</nav>
+		copyright &copy; 2019 THESOLARSYSTEM<br>
+		<a href="mailto:TheUniverse00@outlook.com">TheUniverse00@Gmail.com</a><br>
+		<a href="tel:011-6067-8305">011-6067-8305</a>
+		<h5>Page last modified on</h5>
+		<script>document.write(document.lastModified);</script>
+	</footer>
+</body>

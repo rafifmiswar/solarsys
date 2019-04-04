@@ -1,0 +1,16 @@
+#blank{background-color:#000000;
+					height:85px;}
+#swf{text-align:center;}
+#reference a{text-decoration:none;
+					color:	#8A2BE2;}
+					
+#reference{text-align:center}
+					
+#reference h3{font-size:40px;
+						padding:10px;
+						color:#F0F8FF;}
+
+@media only screen and (max-width: 1024px){
+	#swf{width:100%;
+			height:50%;}
+}

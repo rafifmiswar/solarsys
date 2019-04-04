@@ -1,0 +1,42 @@
+.fotorama{margin:0;}
+#about p{padding:50px 300px 50px 300px;
+		font-size:2em;
+		color:#FFFFFF;
+		background-color:#7955be;
+		margin:0;
+		font-family:"Comic Sans MS",serif;
+		text-align:justify;}
+		
+#about h1{text-align:center;
+		background-color:#6e47b8;
+		color:#FFFFFF;
+		margin:0;
+		font-size:60px;
+		font-family:Impact,serif;}
+		
+#signin{background-color:#9975b9;
+						margin:0;
+						overflow:auto;}
+#signin h1{font-size:60px;
+		font-family:Impact,serif;
+		text-align:center;
+		margin:0;}
+#form1{float:left;
+	padding-left:350px;}
+#form2{float:right;
+	padding-right:350px;}
+	
+@media only screen and (max-width: 1024px){
+	.fotorama{
+	display:none;}
+	#blank{
+	display:none;}
+	#about p{padding:1em;}
+	#form2{float:none;
+				padding:0;
+				text-align:center;}
+	#form1{float:none;
+				padding:0 0 50px 0;
+				text-align:center;}
+}
+

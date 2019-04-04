@@ -1,0 +1,30 @@
+.qnaimg{float:left;
+text-align:center;
+background-color:#7955be}
+
+h3{margin:0;
+		background-color:#7955be;
+		font-size:5em;
+		text-align:center;
+		padding-bottom:20px;
+		color:#FFFFFF;
+		padding-top:20px;}
+
+fieldset{width:600px;
+				border:2px;
+				padding:20px;
+				margin-bottom:10px;
+				border:2px none #FFFFFF;
+				text-align:center;
+				margin:auto;}
+#form{background-color:#7955be;
+				margin:0;
+				padding-bottom:2em;}
+
+@media only screen and (max-width: 1024px){
+	fieldset{padding:0;
+				margin:auto;
+				text-align:center;
+				width:50%;}
+
+			}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>EARTH</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="planet.css">
+	<link href="images/title.png" rel="icon" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+
+		    $(".slidingDiv").hide("slow");
+		    $(".show_hide").show("slow");
+
+		    $('.show_hide').click(function() {
+		        $(this).parent().find(".slidingDiv").slideToggle();
+		    });
+
+		});
+	</script>
+</head>
+<body id="wrapper">
+	<div class="header">
+		<h2 class="logo">The Solar System</h2>
+		<input type="checkbox" id="chk">
+		<label for="chk" class="show-menu-btn">
+		<i class="fas fa-ellipsis-h"></i>
+		</label>
+
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="planet.html">Planet</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="reference.html">Reference</a></li>
+			<li><a href="support.html">Guide</a>
+			<li><label for="chk" class="hide-menu-btn">
+			<i class="fas fa-times"></i>
+		</label></li>
+		</ul>
+	</div>
+	<br><br><br><br>
+
+
+	<div class="box1">
+		<p> Earth, the planet which is, by far, confirmed to be the only planet where living is possible</p><br><br><br><br>
+    <p> The Earth was once believed to be the centre of the universe.
+			Due to the apparent movements of the Sun and planets in relation to their
+				viewpoint, ancient scientists insisted that the Earth remained static, whilst other celestial bodies travelled
+			in circular orbits around it. </p><br><br>
+
+	</div>
+
+	<div class="align">
+	<img src="images/earth.gif" alt="earGif" width="500" height="500">
+	</div>
+
+	<div class="fleft"> <!-- This is the parent div -->
+		<a href="#" class="show_hide"><img src="images/didYouKnow.png" alt="quest" height="75" width="75" ></a>
+		<div class="slidingDiv">
+			<h2>DID YOU KNOW?</h2>
+			<p>The Earth’s rotation is gradually slowing</p>
+		</div>
+	</div>
+	<br><br>
+
+
+	<div class="table">
+		<h2> EARTH PLANET PROFILE </h2>
+		<table>
+	<tr>
+		<th>Diameter: </th>
+		<td>12,756 km</td>
+	</tr>
+	<tr>
+		<th>Mass: </th>
+		<td>5.97 x 10^24 kg</td>
+	</tr>
+	<tr>
+		<th>Moons: </th>
+		<td>1 (The Moon)</td>
+	</tr>
+	<tr>
+		<th>Orbits Distance: </th>
+		<td>149,598,262 km (1 AU)</td>
+	</tr>
+	<tr>
+		<th>Orbit Period:</th>
+		<td>365.24 days</td>
+	</tr>
+	<tr>
+		<th>Surface Temperature: </th>
+		<td>	-88 to 58°C/td>
+	</tr>
+	</table>
+	</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+	<footer>
+		<nav>
+			<a href="index.html">Home</a>&nbsp; &#9474; &nbsp;
+			<a href="planet.html">Planet</a>&nbsp;  &#9474; &nbsp;
+			<a href="video.html">Video</a>&nbsp; &#9474; &nbsp;
+			<a href="reference.html">Reference</a>&nbsp; &#9474; &nbsp;
+			<a href="support.html">Support</a>
+		</nav>
+		copyright &copy; 2019 THESOLARSYSTEM<br>
+		<a href="mailto:TheUniverse00@outlook.com">TheUniverse00@Gmail.com</a><br>
+		<a href="tel:011-6067-8305">011-6067-8305</a>
+		<h5>Page last modified on</h5>
+		<script>document.write(document.lastModified);</script>
+	</footer>
+</body>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VENUS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="planet.css">
+	<link href="images/title.png" rel="icon" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+
+		    $(".slidingDiv").hide("slow");
+		    $(".show_hide").show("slow");
+
+		    $('.show_hide').click(function() {
+		        $(this).parent().find(".slidingDiv").slideToggle();
+		    });
+
+		});
+	</script>
+</head>
+<body id="wrapper">
+	<div class="header">
+		<h2 class="logo">The Solar System</h2>
+		<input type="checkbox" id="chk">
+		<label for="chk" class="show-menu-btn">
+		<i class="fas fa-ellipsis-h"></i>
+		</label>
+
+		<ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="planet.html">Planet</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="reference.html">Reference</a></li>
+			<li><a href="support.html">Guide</a>
+			<li><label for="chk" class="hide-menu-btn">
+			<i class="fas fa-times"></i>
+		</label></li>
+		</ul>
+	</div>
+	<br><br><br><br>
+
+
+	<div class="box1">
+		<p> Venus is the hottest planet in our Solar System and the second brightest object in the world. </p><br><br>
+    <p> The estimated age of the Venusian surface is around 300-400 million years old compared to Earth which is about 100 million years old</p><br><br>
+		<p> Although this planet is famous for the opposite-direction rotation from other planets. This is known as a
+       retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet
+        to change its rotational path.</p>
+	</div>
+
+	<div class="align">
+	<img src="images/venus2.gif" alt="venGif" width="500" height="500">
+	</div>
+
+	<div class="fleft"> <!-- This is the parent div -->
+		<a href="#" class="show_hide"><img src="images/didYouKnow.png" alt="quest" height="75" width="75" ></a>
+		<div class="slidingDiv">
+			<h2>DID YOU KNOW?</h2>
+			<p>A day on the surface of Venus (solar day) would appear to take 117 Earth days.</p>
+		</div>
+	</div>
+	<br><br>
+
+
+	<div class="table">
+		<h2> VENUS PLANET PROFILE </h2>
+		<table>
+	<tr>
+		<th>Diameter: </th>
+		<td>12,104 km</td>
+	</tr>
+	<tr>
+		<th>Mass: </th>
+		<td>4.87 x 10^24 kg (81.5% Earth)</td>
+	</tr>
+	<tr>
+		<th>Moons: </th>
+		<td>None</td>
+	</tr>
+	<tr>
+		<th>Orbits Distance: </th>
+		<td>108,209,475 km (0.73 AU)</td>
+	</tr>
+	<tr>
+		<th>Orbit Period:</th>
+		<td>225 days</td>
+	</tr>
+	<tr>
+		<th>Surface Temperature: </th>
+		<td>462 °C</td>
+	</tr>
+	<tr>
+		<th>First Record:</th>
+		<td>17th century BC</td>
+	</tr>
+	<tr>
+		<th>Recorded By: </th>
+		<td>Babylonian astronomers</td>
+	</tr>
+	</table>
+	</div>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+	<footer>
+		<nav>
+			<a href="index.html">Home</a>&nbsp; &#9474; &nbsp;
+			<a href="planet.html">Planet</a>&nbsp;  &#9474; &nbsp;
+			<a href="video.html">Video</a>&nbsp; &#9474; &nbsp;
+			<a href="reference.html">Reference</a>&nbsp; &#9474; &nbsp;
+			<a href="support.html">Support</a>
+		</nav>
+		copyright &copy; 2019 THESOLARSYSTEM<br>
+		<a href="mailto:TheUniverse00@outlook.com">TheUniverse00@Gmail.com</a><br>
+		<a href="tel:011-6067-8305">011-6067-8305</a>
+		<h5>Page last modified on</h5>
+		<script>document.write(document.lastModified);</script>
+	</footer>
+</body>

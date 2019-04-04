@@ -1,0 +1,23 @@
+body{background-image:url(images/background.gif);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-color:black;}
+h1{color:#FFFFFF;
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	font-size:6.35em;
+	margin:0;
+	padding-top:2.09em;
+	padding-bottom:2em;
+	}
+h2{color:#FFFFFF;
+	text-align:center;}
+a{color:#FFFFFF;
+	border:3px solid #FFFFFF;
+	font-size: 40px;
+	text-decoration:none;
+	padding:10px;
+	border-radius:10px;}
+a:hover{background-color: #FFFFFF;
+			color: #000000;
+			border-color:#FFFFFF;}
